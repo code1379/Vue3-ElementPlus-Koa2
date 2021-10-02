@@ -35,6 +35,7 @@ export default {
   env,
   // * 手动设置，新项目刚开始后端都没有做，我们使用模拟假数据的方式
   mock: true,
+  namespace: "manager",
   // baseURL
   // 线上 www.baidu.com/api
   // 测试 test-www.baidu.com/api

@@ -46,7 +46,18 @@ export default {
 
     this.$request.post("/login", {name: "dell"}).then(res => {
       console.log(res)
+    }).catch(err => {
+      console.log(err)
     })
+
+    this.$storage.setItem("name", "dell")
+    this.$storage.setItem("age", 18)
+    this.$storage.setItem("userInfo", {name: "why", age: 18})
+    const name = this.$storage.getItem("name")
+    console.log(name)
+    const userInfo = this.$storage.getItem("userInfo")
+    console.log(userInfo)
+
   }
 }
 </script>
