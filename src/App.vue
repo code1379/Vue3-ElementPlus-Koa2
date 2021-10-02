@@ -4,7 +4,7 @@
 </script>
 
 <template>
-  <el-button>this is a button</el-button>
+  <router-view></router-view>
 </template>
 
 <style>
