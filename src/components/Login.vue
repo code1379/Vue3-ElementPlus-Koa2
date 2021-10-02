@@ -9,7 +9,46 @@
   </div>
 </template>
 
-<script setup>
+<script >
+// import { onMounted, getCurrentInstance } from "vue";
+// const instance = getCurrentInstance();
+
+// console.log(instance);
+
+// onMounted(() => {
+//   // ! composition api 中没有 this
+//   // this.$request({
+//   //   url: "/login",
+//   // }).then((res) => {
+//   //   console.log(res);
+//   // });
+
+//   instance.ctx
+//     .$request({
+//       url: "/login",
+//     })
+//     .then((res) => {
+//       console.log(res);
+//     });
+// });
+
+export default {
+  mounted() {
+    // this.$request({
+    //   url: "/login",
+    //   method: "POST",
+    //   data: {
+    //     name: "dell"
+    //   }
+    // }).then(res => {
+    //   console.log(res)
+    // })
+
+    this.$request.post("/login", {name: "dell"}).then(res => {
+      console.log(res)
+    })
+  }
+}
 </script>
 
 <style lang="scss" scoped>
