@@ -9,6 +9,10 @@ import request from "./service/request";
 // 全局挂载 storage 实例
 import storage from "./utils/storage";
 
+// main.js 中引入样式
+// import "./assets/style/reset.css";
+// import "./assets/style/index.scss";
+
 const app = createApp(App);
 
 // console.log("request => ", request);
