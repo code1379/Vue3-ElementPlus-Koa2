@@ -1,0 +1,9 @@
+[2021-10-03T17:12:11.652] [ERROR] error - undefined
+[2021-10-03T17:13:09.667] [ERROR] error - undefined
+[2021-10-03T17:14:02.229] [ERROR] error - ReferenceError: ctx is not defined
+    at D:\learn\Vue3-ElementPlus-Koa2\manager-server\app.js:34:3
+    at dispatch (D:\learn\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:42:32)
+    at views (D:\learn\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\learn\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\learn\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:15)
+    at async bodyParser (D:\learn\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
