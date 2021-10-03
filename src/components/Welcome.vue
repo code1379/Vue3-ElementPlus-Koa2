@@ -8,4 +8,8 @@
 </script>
 
 <style lang="scss" scoped>
+.welcome {
+  height: 100%;
+  background-color: white;
+}
 </style>
