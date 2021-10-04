@@ -6,10 +6,16 @@ import { createRouter, createWebHashHistory } from "vue-router";
  * 因为 /a /b 会变成一个请求，如果不配置的话，它会按照这个请求方式去发送，这样是有问题的
  *  */
 
-import Home from "../components/Home.vue";
-import Welcome from "../components/Welcome.vue";
-import Login from "../components/Login.vue";
+import Home from "../views/home/home.vue";
 const routes = [
+  {
+    path: "/login",
+    name: "login",
+    meta: {
+      title: "登录",
+    },
+    component: () => import("../views/login/login.vue"),
+  },
   {
     name: "home",
     path: "/",
@@ -26,15 +32,7 @@ const routes = [
         meta: {
           title: "欢迎页",
         },
-        component: Welcome,
-      },
-      {
-        path: "/login",
-        name: "login",
-        meta: {
-          title: "登录页",
-        },
-        component: Login,
+        component: () => import("../views/home/welcome/welcome.vue"),
       },
     ],
   },

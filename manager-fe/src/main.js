@@ -13,8 +13,12 @@ import storage from "./utils/storage";
 // import "./assets/style/reset.css";
 // import "./assets/style/index.scss";
 
+// 引入 icon
+import * as icon from "@element-plus/icons";
+
 const app = createApp(App);
 
+app.use(icon);
 // console.log("request => ", request);
 app.config.globalProperties.$request = request;
 app.config.globalProperties.$storage = storage;
