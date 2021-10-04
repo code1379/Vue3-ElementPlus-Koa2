@@ -67,6 +67,11 @@ function request(options) {
     // * 我们不需要自己去区分是 get 还是 post 了。
     options.params = options.data;
   }
+  // TODO 单次请求中添加 mock
+  if (typeof options.mock !== "undefined") {
+    config.mock = options.mock;
+  }
+
   // TODO Mock
   if (config.env === "prod") {
     // 只要你是生产，不管你怎么设置，我都会把它指向 baseApi

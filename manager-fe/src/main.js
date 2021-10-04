@@ -6,8 +6,13 @@ import App from "./App.vue";
 import router from "./router";
 // 全局挂载 axios 实例
 import request from "./service/request";
+import api from "./service/api";
+
 // 全局挂载 storage 实例
 import storage from "./utils/storage";
+
+// 引入 store
+import store from "./store";
 
 // main.js 中引入样式
 // import "./assets/style/reset.css";
@@ -21,8 +26,9 @@ const app = createApp(App);
 app.use(icon);
 // console.log("request => ", request);
 app.config.globalProperties.$request = request;
+app.config.globalProperties.$api = api;
 app.config.globalProperties.$storage = storage;
-
+app.use(store);
 app.use(router);
 app.use(ElementPlus);
 app.mount("#app");
