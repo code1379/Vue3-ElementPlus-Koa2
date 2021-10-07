@@ -37,7 +37,7 @@ service.interceptors.response.use((res) => {
 
   if (code === 200) {
     return data;
-  } else if (code === 40001) {
+  } else if (code === 50001) {
     // 我们这里可以用后端返回回来的 msg 错误信息，也可以自己定义
     ElMessage.error(TOKEN_INVALID);
     // ! 不提倡直接跳转，因为有可能 ElMessage 还没看完，直接就跳走了

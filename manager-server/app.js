@@ -7,11 +7,15 @@ const bodyparser = require("koa-bodyparser");
 // const logger = require("koa-logger");
 const log4js = require("./utils/log4j");
 
-const index = require("./routes/index");
 const users = require("./routes/users");
+
+// 一级路由 api
+const router = require("koa-router")();
 
 // error handler
 onerror(app);
+// * 引入数据库
+require("./config/db");
 
 // middlewares
 app.use(
@@ -44,8 +48,10 @@ app.use(async (ctx, next) => {
 });
 
 // routes
-app.use(index.routes(), index.allowedMethods());
-app.use(users.routes(), users.allowedMethods());
+router.prefix("/api");
+// app.use(users.routes(), users.allowedMethods());
+router.use(users.routes(), users.allowedMethods());
+app.use(router.routes(), router.allowedMethods());
 
 // error-handling
 app.on("error", (err, ctx) => {

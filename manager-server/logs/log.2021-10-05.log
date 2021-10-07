@@ -1,0 +1,44 @@
+[2021-10-05T08:49:12.094] [ERROR] error - ****数据库连接成功****
+[2021-10-05T09:56:27.923] [ERROR] error - ReferenceError: data is not defined
+    at Object.fail (D:\learn\Vue3-ElementPlus-Koa2\manager-server\utils\util.js:42:7)
+    at D:\learn\Vue3-ElementPlus-Koa2\manager-server\routes\users.js:24:21
+    at async D:\learn\Vue3-ElementPlus-Koa2\manager-server\app.js:44:3
+    at async serve (D:\learn\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (D:\learn\Vue3-ElementPlus-Koa2\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2021-10-05T10:07:20.036] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:07:43.548] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:11:25.302] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:12:36.322] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:12:40.849] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:12:48.821] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:13:30.220] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:13:50.704] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:13:56.727] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:14:04.289] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:16:40.414] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:17:00.114] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:17:04.746] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:18:58.205] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:22:28.533] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:23:38.092] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:26:11.446] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:26:51.186] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:30:20.943] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:30:24.164] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:31:25.191] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:31:49.423] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:33:10.277] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:33:13.905] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:33:31.774] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:33:44.355] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:34:54.304] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:35:03.654] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:35:11.267] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:35:52.440] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:35:59.484] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:36:14.833] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:36:23.552] [ERROR] error - ****数据库连接失败****
+[2021-10-05T10:37:33.603] [ERROR] error - ****数据库连接失败****
+[2021-10-05T11:18:05.591] [ERROR] error - ****数据库连接失败****
+[2021-10-05T11:44:23.393] [ERROR] error - ****数据库连接失败****
+[2021-10-05T11:44:32.832] [ERROR] error - ****数据库连接失败****
